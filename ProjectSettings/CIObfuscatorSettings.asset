@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 53
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c0f0c9a10dba134c8e333ed56534127, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: CodedImmersions.Obfuscator.Editor::CodedImmersions.Obfuscator.CIObfuscatorSettings
+  enableObfuscator: 0
+  loggerLevel: 0
+  enableSceneObfuscation: 1
+  enableAudioNameObfuscation: 1
+  enableVideoNameObfuscation: 1
+  enableTexture2DNameObfuscation: 1
+  enableTexture3DNameObfuscation: 1
+  enableRenderTextureNameObfuscation: 1
+  enableSpriteNameObfuscation: 1
+  enableMaterialNameObfuscation: 1
+  enableMeshNameObfuscation: 1
+  enablePrefabNameObfuscation: 1
+  enableFontNameObfuscation: 1
+  enableRandomSceneObjects: 1
+  sceneExclusionList:
+  - b0b0a3b9ca1a88a49922b5e16542e145
+  assetExclusionList:
+  - (Invincible) This should NOT be obfuscated
+  unicodeExclusionList: 
+  renameMethod: 1
+  sameNameString: Object
+  minCharacterCount: 50
+  maxCharacterCount: 100
+  minNewObjCount: 250
+  maxNewObjCount: 500
