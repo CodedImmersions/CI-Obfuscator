@@ -1,6 +1,6 @@
 {
     "name": "CodedImmersions.Obfuscator.Editor",
-    "rootNamespace": "CodedImmersions.Obfuscator",
+    "rootNamespace": "CodedImmersions.Obfuscator.Editor",
     "references": [
         "GUID:bdb6b236063ec4142b34fb9552701a8d"
     ],

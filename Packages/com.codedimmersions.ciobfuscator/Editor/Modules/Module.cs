@@ -234,8 +234,10 @@ namespace CodedImmersions.Obfuscator.Editor
                     File.Delete(file.Key);
                 }
 
+                AssetBundleCompressionType compressionType = bundle.originalCompression;
+
                 string tmpPath = bundlePath + ".ciobf";
-                using (AssetsFileWriter writer = new AssetsFileWriter(tmpPath)) { bundle.file.Write(writer); }
+                using (AssetsFileWriter writer = new AssetsFileWriter(tmpPath)) { bundle.file.Pack(writer, compressionType); }
 
                 reader.Dispose();
                 fs.Dispose();

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c0f0c9a10dba134c8e333ed56534127, type: 3}
   m_Name: 
   m_EditorClassIdentifier: CodedImmersions.Obfuscator.Editor::CodedImmersions.Obfuscator.CIObfuscatorSettings
-  enableObfuscator: 0
+  enableObfuscator: 1
   loggerLevel: 0
   enableSceneObfuscation: 1
   enableAudioNameObfuscation: 1
@@ -31,9 +31,9 @@ MonoBehaviour:
   assetExclusionList:
   - (Invincible) This should NOT be obfuscated
   unicodeExclusionList: 
-  renameMethod: 1
+  renameMethod: 0
   sameNameString: Object
-  minCharacterCount: 50
-  maxCharacterCount: 100
-  minNewObjCount: 250
-  maxNewObjCount: 500
+  minCharacterCount: 200
+  maxCharacterCount: 300
+  minNewObjCount: 750
+  maxNewObjCount: 1000
