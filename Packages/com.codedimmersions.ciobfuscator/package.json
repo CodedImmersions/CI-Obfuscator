@@ -1,7 +1,7 @@
 {
   "name": "com.codedimmersions.ciobfuscator",
   "displayName": "CI Obfuscator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CI Obfuscator is a Unity Asset Obfuscator made for Unity 2020-6000.4+.\nIt renames GameObjects in scenes, and a whole bunch of asset types, all to help reduce the risk of game copies.\n\nSupported Editor Platforms:\n- Windows\n- macOS\n- Linux\n\nSupported Runtime Platforms:\n- Windows\n- macOS\n- Linux\n- iOS (untested)\n- Android\n\nEdit the settings at 'Edit > Project Settings > CI Obfuscator', but it should be ready on import.",
   "author": {
     "name": "Coded Immersions",
